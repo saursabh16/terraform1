@@ -1,8 +1,8 @@
 # Configure the AWS Provider
 provider "aws" {
   region = "us-east-1"
-  access_key = "AKIAQGM7FW2VOMZALHPV"
-  secret_key = "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"
+  access_key = ""
+  secret_key = ""
 }
 # aws subnet block
 resource "aws_subnet" "main" {
